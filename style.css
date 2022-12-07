@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+@media screen and (max-width: 650px){
+
+    body{
+        width: 100vw;
+        padding: 35px 18px;
+        text-align: center;
+        background-image: url(./assets/TRANSFORME\ SUA\ PAIXÃO\ POR\ FUTEBOL\ EM\ DINHEIRO.jpg);
+    }
+    img{
+        width: 70vw;
+    }
+    
+h1, h2{
+    font-size: 16px;
+    color: #ff0071;
+    font-weight:400;
+}
+h2{
+    margin-bottom: 10px;
+}
+h3{
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h4{
+    color: #ff0071;
+    font-weight: 300;
+    font-size: 12px;
+    margin: 5px 0 20px 0;
+}
+h5{
+    color: #fff;
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+.option h3{
+    margin: 0;
+}
+.option {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+    
+}
