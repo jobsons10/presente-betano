@@ -26,7 +26,8 @@ h1, h2{
     font-weight:400;
 }
 h1{
-    margin-block: 20px;
+    width: 70vw;
+    margin: 20px auto;
 }
 h2{
     margin-bottom: 12px;
