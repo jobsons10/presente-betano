@@ -12,39 +12,24 @@
     <h4>Devo apostar na Betano? | Apostas Grátis e Bônus de R$300</h3>
     <h3>DESAFIO!</h2>
     <h3>RESPONDA 3 PERGUNTAS E GARANTA SEU BÔNUS DE R$300!</h3>
-    <div class="etapa">
+    <div id="one" class="etapa">
         <h2>ETAPA 1 DE 3</h2>
         <h5>Você gosta de esportes?</h5>
         <div class="option">
-            <input type="checkbox" name="yes" id="">
-            <h3>SIM!</h3>
-        </div>
-        <div class="option">
-            <input type="checkbox" name="not" id="">
-            <h3>Não</h3>
+            <button onclick="ShowMeTwo()">SIM!</button>
+            <button onclick="ShowMeTwo()">Não</button>
         </div>
     </div>
-    <div class="etapa">
+    <div id="two" class="etapa hide-me">
         <h2>ETAPA 2 DE 3</h2>
         <h5>Com qual esporte você se identifica mais?</h5>
         <div class="option">
-            <input type="checkbox" name="soccer" id="">
-            <h3>Futebol</h3>
-        </div>
-        <div class="option">
-            <input type="checkbox" name="basket" id="">
-            <h3>Basquete</h3>
-        </div>
-        <div class="option">
-            <input type="checkbox" name="football" id="">
-            <h3>Futebol Americano</h3>
-        </div>
-        <div class="option">
-            <input type="checkbox" name="casino" id="">
-            <h3>Cassino</h3>
-        </div>
+            <button onclick="ShowMeThree()">Futebol</button>
+            <button onclick="ShowMeThree()">Basquete</button>
+            <button onclick="ShowMeThree()">Futebol Americano</button>
+            <button onclick="ShowMeThree()">Cassino</button>
     </div>
-    <div class="etapa">
+    <div id="three" class="etapa hide-me">
         <h2>ETAPA 3 DE 3</h2>
 
         <h3>PARABÉNS</h3>
@@ -52,5 +37,7 @@
         <h5>Estamos redirecionando você para o conteúdo...</h5>
         <img src="./assets/BARRA.png" alt="">
     </div>
+
+    <script src="./script.js"></script>
 </body>
 </html>
