@@ -58,6 +58,7 @@ h5{
     border: none;
     border-radius: 5px;
     font-weight: 500;
+    padding-inline: 3px;
 }
 .option {
     display: flex;
