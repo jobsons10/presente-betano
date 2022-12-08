@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
 <body>
     <img id="logo" src="./assets/LOGOS-05.png" alt="">
     <h1>DESAFIO!</h1>
-    <h3>RESPONDA 3 PERGUNTAS E GARANTA SEU BÔNUS DE R$300!</h3>
+    <h3>RESPONDA 3 PERGUNTAS E GARANTA SEU <span>BÔNUS DE R$300!</span></h3>
     <div id="one" class="etapa">
         <h2>ETAPA 1 DE 3</h2>
         <h5>Você gosta de esportes?</h5>
@@ -19,7 +19,7 @@
             <button onclick="ShowMeTwo()">Não</button>
         </div>
     </div>
-    <div id="two" class="hide-me">
+    <div id="two" class="etapa hide-me">
         <h2>ETAPA 2 DE 3</h2>
         <h5>Com qual esporte você se identifica mais?</h5>
         <div class="option">
@@ -28,13 +28,13 @@
             <button onclick="ShowMeThree()">Futebol Americano</button>
             <button onclick="ShowMeThree()">Cassino</button>
     </div>
-    <div id="three" class="hide-me">
+    <div id="three" class="etapa hide-me">
         <h2>ETAPA 3 DE 3</h2>
 
         <h3>PARABÉNS</h3>
         <h3>VOCÊ ACABOU DE GANHAR UM PRESENTE</h3>
         <h5>Estamos redirecionando você para o conteúdo...</h5>
-        <img src="./assets/BARRA.png" alt="">
+        <img id="bar" src="./assets/BARRA.png" alt="">
     </div>
 
     <script src="./script.js"></script>
