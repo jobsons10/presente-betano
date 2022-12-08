@@ -1,6 +1,7 @@
 const ShowMeTwo = function() {
-    document.getElementById('two').classList.remove('hide-me');
     document.getElementById('one').classList.add('hide-me');
+    document.getElementById('two').classList.remove('hide-me');
+    
 }
 
 const ShowMeThree = function() {
