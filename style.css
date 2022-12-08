@@ -36,13 +36,14 @@ h2{
 h1{
     width: 100vw;
     font-size: 24px;
-    padding-block: 10px;
+    padding: 10px;
     margin: 50px auto 50px auto;
     color: #ff0071;
     font-weight: 500;
     background-color: aliceblue;
     margin-left: -18px;
 }
+
 
 h3{
     font-size: 18px;
