@@ -41,12 +41,12 @@ h1{
     font-size: 28px;
     padding: 10px;
     margin: 50px auto 60px auto;
-    color: #fff;
+    color: #ff0071;
     font-weight: 500;
     border-block: aliceblue 2px solid;
     text-align: center;
     border-image:
-        linear-gradient(to right, #ff2b8200, #ff0071, #f22b8200) 1;
+        linear-gradient(to right, #ff2b8200, #fff, #f22b8200) 1;
 }
 
 
