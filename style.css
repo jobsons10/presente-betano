@@ -6,10 +6,6 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
-
-
-@media screen and (max-width: 650px){
-
     body{
         width: 100vw;
         padding: 60px 18px 18px;
@@ -37,7 +33,7 @@ h2{
     margin: 20px 0 10px 0;
 }
 h1{
-    width: 35vw;
+    width: 45vw;
     font-size: 28px;
     padding: 10px;
     margin: 50px auto 60px auto;
@@ -110,6 +106,20 @@ h5{
 .show-me{
     display: block;
 }
-
+@media screen and (min-width: 650px){
+    body{
+        height: 100vh;
+        padding: 20px 0 0 0;
+        background-image: url(./assets/BG-BETINFOPrancheta-2.png);
+    }
     
+    h1{
+        margin: 30px auto;
+    }
+    .etapa{
+        width: 50vw;
+    }
+    #bar{
+        width: 80%;
+    }
 }
