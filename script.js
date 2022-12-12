@@ -10,7 +10,7 @@ const ShowMeThree = function() {
 }
 
 const Page = function() {
-    window.location.href = "http://www.devmedia.com.br";
+    window.location.href = "https://betinfo.com.br/betano-bonus/";
 }
 
 
