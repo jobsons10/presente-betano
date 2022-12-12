@@ -8,3 +8,13 @@ const ShowMeThree = function() {
     document.getElementById('two').classList.add('hide-me');
     document.getElementById('three').classList.remove('hide-me');
 }
+
+const Page = function() {
+    window.location.href = "http://www.devmedia.com.br";
+}
+
+
+const Redirect = function() {
+    setTimeout(Page, 2000);
+}
+
